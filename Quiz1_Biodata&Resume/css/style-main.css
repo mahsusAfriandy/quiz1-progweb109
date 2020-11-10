@@ -1,0 +1,471 @@
+html, body{
+  height: 50%;
+}
+
+/*Bagian paling atas */
+body {
+    background-size: cover;
+    padding-top: 5px;
+}
+
+*:focus {
+    outline: none;
+}
+a {color: #000000;}
+a:hover{
+    color: #474745;
+    text-decoration: none;
+}
+
+.bg {
+    background-image: url();
+    background-repeat: no-repeat;
+    background-position: 50% -1px 900px   border-bottom dashed;
+}
+.logo-area {
+    padding-top: -7px;
+}
+
+.logo-area .logo{
+    margin-bottom: 0;
+}
+
+/* Main Banner */
+.logo-area .logo img {
+    margin-top: -30px;
+    margin-left: -30px;
+    margin-right: 10px;
+    margin-bottom: 0px;
+}
+.logo-area .logo a span{
+    font-weight: 200;
+}
+
+/*shape diatas user login*/
+.panel-second {
+    background: #ffc570;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 50px;
+    min-height: 50px;
+    max-width: 250px;
+    border-radius: 4px;
+    box-shadow: 0 3px 6px rgb(255, 153, 0), 0 3px 6px rgb(255, 153, 0);
+}
+
+/*shape user login*/
+.panel {
+    align-items: center;
+    margin: 0 auto;
+    margin-top: -40px;
+    margin-bottom: -10px;
+    padding: 17px 10px 0px 10px;
+    max-width: 270px;
+    max-height: 310px;
+    background-color: white;
+    /* border: 1px solid black; */
+    border-radius: 6px;
+    box-shadow: 0 3px 6px rgb(255, 153, 0), 0 3px 6px rgb(255, 255, 204);
+}
+.panel > header {
+    margin-left: 30px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: lighter;
+    font-family: sans-serif;
+    font-style: normal;;
+    color: #000000;
+
+}
+
+.panel > .pull-right { margin-right: -30px; }
+
+.panel-head {
+    font-size: px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+}
+
+.panel-second-big {max-width: 90%;}
+
+.panel-big {max-width: 100%; margin-bottom:30px; padding:15px;}
+
+hr {
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.alert {
+    font-size: 80%;
+    padding: 5px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    margin: 0 15px  10px 15px;
+}
+
+.login {
+    text-align: center;
+    max-width: 280px;
+    margin: 0 auto;
+    margin-top: 7px;
+}
+
+.login input {
+    margin-bottom: 10px;
+    width: 80%;
+    height: 40px;
+    border: 0px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #000000;
+}
+.login .s-login {
+    font-weight: 300;
+    color: #000000;
+}
+.login .s-login  .username {border-bottom: 1px #959595 solid; }
+.login .s-login  .password {border-bottom: 1px #959595 solid; }
+.login .l-login {font-weight: 400;}
+.login .l-login .user {color: #000000;}
+.login .a-login {font-weight: 400;}
+.login .a-login .user {color: #000000;}
+
+.full-fixed {
+    height: 80vh;
+    margin-top: 0px;
+    padding-right: 10px;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+.box {
+    background-color: #fff;
+    margin-bottom: 15px;
+    border: 1px solid #FBDD56;
+    border-radius: 6px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.30);
+}
+.box-head {
+    background-color: black;
+    padding: 10px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    color: #fff;
+}
+.box-body {
+    padding: 10px;
+}
+.box-footer {
+    background-color: #7c8ad1;
+    padding: 10px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    color: #fff;
+    font-size: 18px;
+}
+.btn-circle {
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    padding: 6px 0;
+    font-size: 12px;
+    line-height: 1.428571429;
+    border-radius: 15px;
+}
+.btn-circle.btn-lg {
+    width: 50px;
+    height: 50px;
+    border-radius: 35px;
+}
+.btn-default {
+    color: #7d8bd1;
+    background-color: #fcd528;
+    border-color: #5f699e;
+}
+.btn-login {
+    background-image: linear-gradient(to left, #ffc570 10%, #ffe2b7 100%);
+    box-shadow: 0px 7px 7px 0px rgba(5, 32, 56, 0.19);
+    margin: 10px;
+    margin-bottom: 30px;
+    min-width: 225px;
+    padding: 6px;
+    border: 1px solid black;
+    border-radius: 33em;
+    font-size: 18px;
+    color: black;
+    font-family: arial;
+}
+.btn-login:hover{
+    color: white;
+}
+.btn-logout {
+    background-image: linear-gradient(to left, #ffc570 10%, #ffe2b7 100%);
+    box-shadow: 0px 7px 7px 0px rgba(5, 32, 56, 0.19);
+    margin: 5px;
+    margin-bottom: 20px;
+    min-width: 225px;
+    padding: 6px;
+    border: 0px solid #a99c2d;
+    border-radius: 33em;
+    font-size: 18px;
+    color: black;
+    font-weight: 300;
+    font-family: arial;
+}
+.btn-logout:hover{
+    color: white;
+}
+.btn-go {
+    background-image: linear-gradient(to left, #ffc570 10%, #ffe2b7 100%);
+    box-shadow: 0px 7px 7px 0px rgba(5, 32, 56, 0.19);
+    min-width: 225px;
+    margin: 30px;
+    padding: 6px;
+    border: 0px solid #a99c2d;
+    border-radius: 33em;
+    font: black, 18px, arial;
+    font-style: normal;
+    font-variant: normal;
+}
+.btn-go:hover{
+    color: white;
+}
+.btn-small{
+    background-image: linear-gradient(to left, #ffc570 10%, #ffe2b7 100%);
+    background-position: left;
+    margin-top: 8px;
+    margin-left: 10px;
+    margin-right: -2px;
+    min-width: 135px;
+    max-width: 130px;
+    padding: 5px;
+    /* border: 1px solid black; */
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 33em;
+    font-size: 14px;
+    font-family: helvetica;
+}
+.btn-small:hover{
+    color: white;
+}
+.text-space {letter-spacing: 2px;}
+.text-purple {color: #5f699f;}
+.text-white {color: white;}
+.social {
+    text-align: center;
+    margin: 10px;
+}
+.status {padding: 10px 5px; font-family: arial;}
+.status {margin: 5px; font-family: arial;}
+.img-thumbnail {padding: 1px;}
+.user {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-family: arial;
+}
+.user .name {
+    padding: 5px 30px;
+    font: black, italic, bolder, 15px, helvetica;
+}
+.copy {
+    margin: 20px;
+    font-size: 80%;
+    color: #fff;
+}
+
+.nav-tabs {
+    margin: 45px 20px 0 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.nav-tabs>li {
+    width: 50%;
+    text-align: center;
+}
+
+.nav-tabs>li>a:hover {
+    border-color: none;
+}
+
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
+    color: #FFF;
+    cursor: default;
+    background-color: transparent;
+    border: 0px;
+    border-bottom-color: transparent;
+}
+
+.nav-tabs>li>a {
+    margin-right: 0px;
+    line-height: 1.42857143;
+    border: 1px solid transparent;
+    border-radius: 0;
+}
+
+.nav>li>a {
+    position: relative;
+    display: block;
+    padding: 5px;
+}
+
+.nav-tabs>li>.a:hover {
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+
+.nav-tabs>li>.b:hover {
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+
+.panel>.table-bordered, .panel>.table-responsive>.table-bordered {
+   border: 1px solid #ddd; font-family: arial;
+}
+
+/*-------------------------------*/
+/*         Scrollbar 3           */
+/*-------------------------------*/
+
+#scrollbar3 ::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+}
+
+#scrollbar3 ::-webkit-scrollbar-track {
+    background-color: transparent;
+    border-radius: 5px;
+}
+
+#scrollbar3 ::-webkit-scrollbar-thumb {
+    background-color: rgba(196, 202, 234,0.5);
+    border-radius: 5px;
+}
+
+#scrollbar3 ::-webkit-scrollbar-corner {
+}
+
+@media only screen and (max-width: 800px) {
+
+    /* Force table to not be like tables anymore */
+    #no-more-tables table,
+    #no-more-tables thead,
+    #no-more-tables tbody,
+    #no-more-tables th,
+    #no-more-tables td,
+    #no-more-tables tr {
+        display: block;
+    }
+
+    /* Hide table headers (but not display: none;, for accessibility) */
+    #no-more-tables thead tr {
+        position: absolute;
+        top: -9999px;
+        left: -9999px;
+    }
+
+    #no-more-tables tr { border: 1px solid #ccc; }
+
+    #no-more-tables td {
+        /* Behave  like a "row" */
+        border: none;
+        border-bottom: 1px solid #eee;
+        position: relative;
+        white-space: normal;
+        text-align:left;
+    }
+
+    #no-more-tables td:before {
+        /* Now like a table header */
+        position: absolute;
+        /* Top/left values mimic padding */
+        top: 6px;
+        left: 6px;
+        width: 45%;
+        padding-right: 10px;
+        white-space: nowrap;
+        text-align:left;
+        font-weight: bold;
+    }
+
+    /*
+    Label the data
+    */
+    #no-more-tables td:before { content: attr(data-title); }
+}
+
+@media only screen and (max-width: 1390px) {
+    body {
+      /*background: url('../img/header.png')fixed cover no-repeat;*/
+    }
+}
+
+
+@media only screen and (max-width: 768px) {
+    body{
+        /*background: #f2f0f0 url('../img/header.png')top -50px center no-repeat;
+        padding-top: 20px;*/
+
+    }
+    .logo-area {
+        margin: 0 auto;
+        margin-top: 0px;
+        margin-bottom: px;
+        padding: 10px;
+        text-align: center;
+        border-radius: 6px;
+        background: rgba(255, 255, 255, 0.80);
+        max-width: 290px;
+    }
+    .panel-second {max-width: 250px;}
+    .panel {
+        margin-top: -40px;
+        margin-bottom: 20px;
+        max-width: 300px;
+        border: 1px solid black;
+    }
+}
+
+@media screen and (max-height: 450px) {
+    .logo-area {
+        margin: 0 auto;
+        margin-top: 0px;
+        margin-bottom: 20px;
+        padding: 10px;
+        text-align: center;
+        border-radius: 6px;
+        background: rgba(255, 255, 255, 0.67);
+        max-width: 300px;
+    }
+
+    .overlay {overflow-y: auto;}
+    .overlay a {font-size: 20px}
+    .overlay .closebtn {
+        font-size: 40px;
+        top: 15px;
+        right: 35px;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    body{
+        padding-top: 20px;
+    }
+    .logo-area {
+        margin: 0 auto;
+        margin-top: 0px;
+        margin-bottom: 20px;
+        padding: 10px;
+        text-align: center;
+        border-radius: 6px;
+        background: rgba(255, 255, 255, 0.67);
+        max-width: 300px;
+    }
+    .panel-second {max-width: 270px;}
+    .panel {
+        margin-top: -40px;
+        margin-bottom: 20px;
+        max-width: 300px;
+    }
+}
